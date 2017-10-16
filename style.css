@@ -29,3 +29,23 @@ height:20px;
 padding-left:30px;
 
 }
+
+#play-list {
+	padding-top:40px;
+}
+
+#play-list ul {
+	list-style: none;
+}
+
+
+#play-list p {
+	font-size:80px;
+	font-family: 'Anton', sans-serif;
+	float:left;
+	padding-top:20px;
+}
+
+#play-list iframe {
+	margin-left: 41px;
+}
