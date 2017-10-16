@@ -43,9 +43,10 @@ padding-left:30px;
 	font-size:80px;
 	font-family: 'Anton', sans-serif;
 	float:left;
-	padding-top:20px;
+
 }
 
 #play-list iframe {
 	margin-left: 41px;
+	padding-top:10px;
 }
