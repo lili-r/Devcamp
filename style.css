@@ -29,10 +29,39 @@ input[type=text]:focus {
 
 }
 
+
+#play-list .trais-hone {
+	width:1px;
+	height:100px;
+	background-color:grey;
+	margin-top:20px;
+	margin-left:48px;
+}
+
+.first p{
+
+    margin-left: 15px;
+}
+
 #play-list .trais-h {
 	width:1px;
-	height:20px;
+	height:100px;
 	background-color:grey;
+	margin-top:20px;
+	margin-left:47px;
+}
+
+#play-list .trais-hten {
+	width:1px;
+	height:100px;
+	background-color:grey;
+	margin-top:20px;
+	margin-left:77px;
+}
+
+.ten
+{
+	padding-left: 12px;
 }
 
 #menu-deroulant img
@@ -64,5 +93,18 @@ padding-left:30px;
 
 #play-list iframe {
 	margin-left: 41px;
-	padding-top:10px;
+	margin-top:-90px;
 }
+
+.like img
+{
+	position: absolute;
+    padding-bottom: 38px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-bottom-width: -10;
+    right: 476px;
+    top: 121px;
+
+}
+
