@@ -19,6 +19,12 @@ input[type=text]:focus {
 
 }
 
+#play-list .trais-h {
+	width:1px;
+	height:20px;
+	background-color:grey;
+}
+
 #menu-deroulant img
 {
 width: 20px;
