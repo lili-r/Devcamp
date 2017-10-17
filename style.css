@@ -75,6 +75,29 @@ padding-left:30px;
 
 }
 
+#menu-deroulant li {
+	list-style:none;
+	background-color: grey;
+	border-radius: 10px;
+	margin-left:10px;
+	height:20px;
+	width:45px;
+
+}
+
+#menu-deroulant li:hover { 
+    background-color: #F2D7EC;
+}
+
+
+#menu-deroulant p {
+	border-radius: 10px;
+	color:white;
+	padding-bottom: 10px;
+	margin-left:5px;
+	margin-top:5px;
+}
+
 #play-list {
 	padding-top:40px;
 }
