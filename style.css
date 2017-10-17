@@ -9,6 +9,12 @@ margin-right: 0px;
 margin-left: 0px;
 }
 
+.header 
+{
+padding-left: 0px;
+padding-right: 0px;
+}
+
 input[type=text] {
     width: 130px;
         margin-top: 12px;
