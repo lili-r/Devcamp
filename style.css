@@ -108,3 +108,14 @@ padding-left:30px;
 
 }
 
+.vote img
+{
+	position: absolute;
+    padding-bottom: 38px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-bottom-width: -10;
+    right: 165px;
+    top: 55px;
+
+}
