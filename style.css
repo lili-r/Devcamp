@@ -114,7 +114,6 @@ margin-top: 0px;
 #play-list .trais-hten {
 	width:1px;
 	height:100px;
-	background-color:grey;
 	margin-top:20px;
 	margin-left:77px;
 }
@@ -161,6 +160,8 @@ height: 955px;
 {
 width: 20px;
 height:20px;
+ margin-left: 259px;
+ margin-top: -52px;
 }
 
 #menu-deroulant h3 {
@@ -168,15 +169,25 @@ padding-left:30px;
 
 }
 
+
+
+
 #menu-deroulant li {
 	list-style:none;
 	background-color: grey;
 	border-radius: 10px;
-	margin-left:10px;
+	margin-left:40px;
 	height:20px;
-	width:45px;
+	width:50px;
+
 
 }
+
+
+.active{
+  	background-color: #F2D7EC;
+}
+
 
 #menu-deroulant li:hover { 
     background-color: #F2D7EC;
@@ -195,6 +206,7 @@ padding-left:30px;
 	border-bottom-width: 30px;
     margin-bottom: 10px;
     margin-right: 700px;
+
 }
 
 .menu {
@@ -220,6 +232,7 @@ padding-left:30px;
     margin-left: 8px;
 }
 
+<<<<<<< HEAD
 .vote2 {
     float: right;
     margin-top: -95px;
