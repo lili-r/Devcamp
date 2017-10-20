@@ -1,12 +1,12 @@
+
+
+/* HEADER */
+
 .banner img
 {
 	width:100%;
-}
-
-.row  
-{
-margin-right: 0px;
-margin-left: 0px;
+	z-index: 1;
+	/* background-image: url(img/header.jpg); */
 }
 
 .header 
@@ -15,10 +15,14 @@ padding-left: 0px;
 padding-right: 0px;
 }
 
+.search{
+	float: right;
+    margin-top: 15px;
+    margin-right: 32px;
+    padding-bottom: 12px;
+}
+
 input[type=text] {
-    width: 130px;
-        margin-top: 12px;
-    margin-left: 173px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -29,6 +33,62 @@ input[type=text]:focus {
 
 }
 
+/* Concept part / page 1 */
+
+.jumbotron.text-center {
+	margin-bottom: 0px;
+}
+
+#explain p {
+    font-size: 21px;
+    font-weight: 200;
+}
+
+/* SOCIAL ICONS */
+
+
+.social{
+	position: fixed;
+	bottom: 270px;
+	right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.social img{
+	margin-bottom: 10px;
+}
+
+.social2{
+	position: fixed;
+	bottom: 510px;
+	right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.social2 img{
+	margin-bottom: 10px;
+}
+
+/* MUSIC */
+
+iframe {
+	margin-bottom: -64px;
+	margin-top: 39px;
+}
+
+.row  
+{
+margin-right: 0px;
+margin-left: 0px;
+}
+
+.row1{
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 0px;
+}
 
 #play-list .trais-hone {
 	width:1px;
@@ -59,9 +119,42 @@ input[type=text]:focus {
 	margin-left:77px;
 }
 
+#play-list {
+	padding-top:40px;
+	background: #4DA0B0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 955px;
+}
+
+#play-list ul {
+	list-style: none;
+}
+
+
+#play-list p {
+	font-size:80px;
+	font-family: 'Anton', sans-serif;
+	float:left;
+
+}
+
+#play-list iframe {
+	margin-left: 41px;
+	margin-top:-90px;
+}
+
+
 .ten
 {
 	padding-left: 12px;
+}
+
+/* MENU & CATEGORIE */
+
+
+#menu-deroulant {
+		background-color: #0B486B;
 }
 
 #menu-deroulant img
@@ -98,47 +191,55 @@ padding-left:30px;
 	margin-top:5px;
 }
 
-#play-list {
-	padding-top:40px;
+.all {
+	border-bottom-width: 30px;
+    margin-bottom: 10px;
+    margin-right: 700px;
 }
 
-#play-list ul {
-	list-style: none;
+.menu {
+	color: #ffffff;
+}
+ /* ICONS MUSIC */
+
+ .likeshare img{
+
+	margin-right: -38px;
+    margin-left: 47px;
+}
+
+.vote {
+	float: right;
+    margin-top: -95px;
+    margin-right: 130px;
+}
+
+.likeshare2 img{
+
+    margin-right: 1px;
+    margin-left: 8px;
+}
+
+.vote2 {
+    float: right;
+    margin-top: -95px;
+    margin-right: 43px;
+}
+.white{
+	cursor: pointer;
+}
+.green{
+	display: none;
 }
 
 
-#play-list p {
-	font-size:80px;
-	font-family: 'Anton', sans-serif;
-	float:left;
+/* BACKGROUND */
 
-}
 
-#play-list iframe {
-	margin-left: 41px;
-	margin-top:-90px;
-}
+#music {
+background: #53346D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #000000, #53346D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #000000, #53346D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.like img
-{
-	position: absolute;
-    padding-bottom: 38px;
-    padding-top: 0px;
-    margin-top: 0px;
-    border-bottom-width: -10;
-    right: 476px;
-    top: 121px;
-
-}
-
-.vote img
-{
-	position: absolute;
-    padding-bottom: 38px;
-    padding-top: 0px;
-    margin-top: 0px;
-    border-bottom-width: -10;
-    right: 165px;
-    top: 55px;
-
+height: 1020px;
 }
